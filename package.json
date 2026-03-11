@@ -1,0 +1,18 @@
+{
+  "name": "cha-de-bebe-vitor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:integration": "node ./scripts/integration-test.js"
+  },
+  "dependencies": {
+    "vite": "^5.0.8"
+  },
+  "devDependencies": {
+    "vite-plugin-pwa": "^0.17.4"
+  }
+}
